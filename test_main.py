@@ -1,7 +1,7 @@
-from main import add,sub
+from main import add, subtract
 
 def test_add():
-    assert add(3,5)==8
+    assert add(3, 2) == 5
 
-def test_sub():
-    assert sub(5,4)==1
+def test_subtract():
+    assert subtract(5, 3) == 2
